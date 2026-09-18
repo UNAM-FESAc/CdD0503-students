@@ -1,12 +1,12 @@
 
-────────────────────────────────────────────────
+─────────────────────────────────────
  Métodos Matemáticos Computacionales para Ciencia de Datos
 
         Python · NumPy · SciPy · Jupyter · Ciencia de Datos
 
                  Facultad de Estudios Superiores Acatlán
                          Universidad Nacional Autónoma de México
-────────────────────────────────────────────────
+─────────────────────────────────────
 
 # Métodos Matemáticos Computacionales para Ciencia de Datos
 ### CdD 0503 · Facultad de Estudios Superiores Acatlán · Universidad Nacional Autónoma de México
@@ -28,7 +28,7 @@
 
 Bienvenido(a) al repositorio oficial del curso **Métodos Matemáticos Computacionales para Ciencia de Datos (CdD 0503)**.
 
-Este repositorio contiene el material oficial del curso **Métodos Matemáticos Computacionales para Ciencia de Datos (CdD0503)** impartido en la **Facultad de Estudios Superiores Acatlán de la Universidad Nacional Autónoma de México**.
+Este repositorio contiene el material oficial del curso **Métodos Matemáticos Computacionales para Ciencia de Datos (CdD0503-students)** impartido en la **Facultad de Estudios Superiores Acatlán de la Universidad Nacional Autónoma de México**.
 
 El objetivo del curso es desarrollar fundamentos sólidos en análisis numérico, álgebra lineal computacional y métodos matemáticos aplicados a Ciencia de Datos mediante laboratorios interactivos, programación científica y evaluación automática.
 
@@ -114,13 +114,13 @@ Antes de comenzar asegúrese de tener instalado:
 ## Instalación
 
 ```bash
-git clone https://github.com/jaorduz/CdD0503.git
+git clone https://github.com/jaorduz/CdD0503-students.git
 
-cd CdD0503
+cd CdD0503-students
 
 conda env create -f environment.yml
 
-conda activate cdd0503
+conda activate CdD0503-students
 
 jupyter lab
 ```
@@ -142,12 +142,10 @@ Cada laboratorio sigue la siguiente metodología:
 
 | Actividad | Porcentaje |
 |-----------|-----------:|
+| Examen parcial (2)| 30% |
+| Examen final | 20% |
 | Laboratorios | 40% |
-| Talleres | 20% |
-| Examen parcial | 15% |
-| Examen final | 15% |
-| Proyecto | 10% |
-
+| Cuestionarios y actividades | 10% |
 ---
 ## Bibliografía
 
