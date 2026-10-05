@@ -1,0 +1,8 @@
+flowchart LR
+    A["Datos X<br/>n × p"] --> B["Centrar / estandarizar"]
+    B --> C["Covarianza<br/>S = XcᵀXc/(n−1)"]
+    C --> D["Eigenpares<br/>Svᵢ = λᵢvᵢ"]
+    D --> E["Ordenar λᵢ<br/>de mayor a menor"]
+    E --> F["Vₖ = [v₁ … vₖ]"]
+    F --> G["Scores<br/>Z = XcVₖ"]
+    G --> H["Reconstrucción<br/>X̂ = ZVₖᵀ + μ"]

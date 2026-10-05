@@ -1,0 +1,9 @@
+flowchart TD
+    A["Matriz de datos X ∈ R^(n×p)"] --> B{"¿Cuántos elementos<br/>son no cero?"}
+    B --> C["nnz(X)"]
+    C --> D["densidad = nnz(X)/(np)"]
+    D --> E{"¿Matriz muy dispersa?"}
+    E -->|Sí| F["Evitar operaciones densas<br/>cuando sea posible"]
+    E -->|No| G["Métodos densos pueden ser razonables"]
+    F --> H["Costo depende de<br/>dimensiones + estructura + algoritmo"]
+    G --> H
