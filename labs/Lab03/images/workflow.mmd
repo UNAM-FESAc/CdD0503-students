@@ -1,0 +1,14 @@
+flowchart LR
+A["Matriz A"]:::input
+E["Valores y vectores propios"]:::process
+D["Diagonalización<br/>A = PDP⁻¹"]:::algorithm
+S["SVD<br/>A = UΣVᵀ"]:::algorithm
+P["Pseudoinversa<br/>A⁺ = VΣ⁺Uᵀ"]:::result
+R["Aplicaciones numéricas"]:::result
+A --> E --> D
+A --> S --> P --> R
+D --> R
+classDef input fill:#D6EAF8,stroke:#1F77B4,stroke-width:2px,color:#000;
+classDef process fill:#D5F5E3,stroke:#2CA02C,stroke-width:2px,color:#000;
+classDef algorithm fill:#FDEBD0,stroke:#FF7F0E,stroke-width:2px,color:#000;
+classDef result fill:#EBEDEF,stroke:#7F8C8D,stroke-width:2px,color:#000;

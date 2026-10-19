@@ -1,0 +1,10 @@
+flowchart LR
+A["A"]:::input --> SVD["A = UΣVᵀ"]:::process
+SVD --> SV["Valores singulares<br/>σᵢ"]:::algorithm
+SV --> INV["σᵢ > tol<br/>σᵢ → 1/σᵢ"]:::algorithm
+INV --> SP["Σ⁺"]:::process
+SP --> AP["A⁺ = VΣ⁺Uᵀ"]:::result
+classDef input fill:#D6EAF8,stroke:#1F77B4,stroke-width:2px,color:#000;
+classDef process fill:#D5F5E3,stroke:#2CA02C,stroke-width:2px,color:#000;
+classDef algorithm fill:#FDEBD0,stroke:#FF7F0E,stroke-width:2px,color:#000;
+classDef result fill:#EBEDEF,stroke:#7F8C8D,stroke-width:2px,color:#000;
